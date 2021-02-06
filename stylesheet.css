@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
 	margin: 0;
 	padding: 0;
@@ -365,16 +372,16 @@ input {
 }
 @-webkit-keyframes slides {
     0% { left: 0px;}
-    25% { left: -1012px;}
-    50% { left: -2024px;}
-    75% { left: -3036px;}
+    25% { left: -1014px;}
+    50% { left: -2028px;}
+    75% { left: -3042px;}
     100% { left: 0px;}
 }
 @keyframes slides {
     0% { left: 0px;}
-    25% { left: -1012px;}
-    50% { left: -2024px;}
-    75% { left: -3036px;}
+    25% { left: -1014px;}
+    50% { left: -2028px;}
+    75% { left: -3042px;}
     100% { left: 0px;}
 }
 .news {
@@ -400,7 +407,7 @@ input {
 }
 .obt:hover {
     -webkit-box-shadow: 10px 10px 20px rgb(75, 72, 63);
-            box-shadow: 10px 10px 20px rgb(75, 72, 63);
+    box-shadow: 10px 10px 20px rgb(75, 72, 63);
 }
 .obt img {
     width: 300px;
