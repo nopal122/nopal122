@@ -371,18 +371,18 @@ input {
     -moz-animation-play-state: paused;
 }
 @-webkit-keyframes slides {
-    0% { left: 0px;}
-    25% { left: -1014px;}
-    50% { left: -2028px;}
-    75% { left: -3042px;}
-    100% { left: 0px;}
+    0% { left: 0%;}
+    25% { left: -100%;}
+    50% { left: -200%;}
+    75% { left: -300%;}
+    100% { left: 0%;}
 }
 @keyframes slides {
-    0% { left: 0px;}
-    25% { left: -1014px;}
-    50% { left: -2028px;}
-    75% { left: -3042px;}
-    100% { left: 0px;}
+    0% { left: 0%;}
+    25% { left: -100%;}
+    50% { left: -200%;}
+    75% { left: -300%;}
+    100% { left: 0%;}
 }
 .news {
     border: 6px solid rgb(97, 92, 82);
