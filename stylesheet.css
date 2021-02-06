@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
 	margin: 0;
 	padding: 0;
@@ -13,13 +20,15 @@ main, article, aside, figure, footer, header, nav, section, details, summary {di
 /* Handle box-sizing while better addressing child elements:
    http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 html {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-	box-sizing: inherit;
+	-webkit-box-sizing: inherit;
+	        box-sizing: inherit;
 }
 
 /* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
@@ -166,6 +175,8 @@ html {
     color: white;
     text-decoration: none;
     padding: 18px 25px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 .home:hover {
@@ -175,6 +186,8 @@ html {
     color: white;
     text-decoration: none;
     padding: 18px 25px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 .faq:hover {
@@ -184,6 +197,8 @@ html {
     color: white;
     text-decoration: none;
     padding: 18px 20px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 .aboutus:hover {
@@ -193,6 +208,8 @@ html {
     color: white;
     text-decoration: none;
     padding: 18px 25px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 .event:hover {
@@ -202,6 +219,8 @@ html {
     color: white;
     text-decoration: none;
     padding: 18px 25px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 .topup:hover {
@@ -209,8 +228,8 @@ html {
 }
 .main {
     background-color: rgb(211, 211, 211);
-    height: 1500px;
-    width: 1000px;
+    height: 70%;
+    width: 75%;
     float: right;
     position: relative; bottom: 440px;
     margin-right: 40px;
@@ -250,6 +269,8 @@ input {
     border-radius: 20px;
 }
 .masuk:hover {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     background-color: teal;
 }
@@ -290,6 +311,8 @@ input {
 }
 .fesbuk:hover {
     background-color: #ffffff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     color: #3B5998;
     cursor: pointer;
@@ -312,6 +335,8 @@ input {
 }
 .twit:hover {
     background-color: #ffffff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     color: #55ACEE;
     cursor: pointer;
@@ -324,6 +349,8 @@ input {
     position: relative; right: 100px; bottom: 25px;
 }
 .slideshow {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 600px;
     animation: slides 15s infinite;
@@ -338,29 +365,22 @@ input {
 }
 @-webkit-keyframes slides {
     0% { left: 0px;}
-    25% { left: -1000px;}
-    50% { left: -2000px;}
-    75% { left: -3000px;}
-    100% { left: 0px;}
-}
-@-moz-keyframes slides {
-    0% { left: 0px;}
-    25% { left: -1000px;}
-    50% { left: -2000px;}
-    75% { left: -3000px;}
+    25% { left: -1012px;}
+    50% { left: -2024px;}
+    75% { left: -3036px;}
     100% { left: 0px;}
 }
 @keyframes slides {
     0% { left: 0px;}
-    25% { left: -1000px;}
-    50% { left: -2000px;}
-    75% { left: -3000px;}
+    25% { left: -1012px;}
+    50% { left: -2024px;}
+    75% { left: -3036px;}
     100% { left: 0px;}
 }
 .news {
     border: 6px solid rgb(97, 92, 82);
     border-style: double;
-    width: 988px;
+    width: 100%;
     margin-top: 20px;
 }
 .patch {
@@ -374,10 +394,13 @@ input {
     cursor: pointer;
     background-color: white;
     margin-left: 5px;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
     transition: 0.6s;
 }
 .obt:hover {
-    box-shadow: 10px 10px 20px rgb(75, 72, 63);
+    -webkit-box-shadow: 10px 10px 20px rgb(75, 72, 63);
+            box-shadow: 10px 10px 20px rgb(75, 72, 63);
 }
 .obt img {
     width: 300px;
@@ -405,11 +428,14 @@ input {
     cursor: pointer;
     background-color: white;
     margin-left: 5px;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
     transition: 0.6s;
     margin-top: 10px;
 }
 .v11:hover {
-    box-shadow: 10px 10px 20px rgb(75, 72, 63);
+    -webkit-box-shadow: 10px 10px 20px rgb(75, 72, 63);
+            box-shadow: 10px 10px 20px rgb(75, 72, 63);
 }
 .v11 img {
     width: 300px;
@@ -437,11 +463,14 @@ input {
     cursor: pointer;
     background-color: white;
     margin-left: 5px;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
     transition: 0.6s;
     margin-top: 10px;
 }
 .dragonspine:hover {
-    box-shadow: 10px 10px 20px rgb(75, 72, 63);
+    -webkit-box-shadow: 10px 10px 20px rgb(75, 72, 63);
+            box-shadow: 10px 10px 20px rgb(75, 72, 63);
 }
 .dragonspine img {
     width: 300px;
@@ -469,11 +498,14 @@ input {
     cursor: pointer;
     background-color: white;
     margin-left: 5px;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
     transition: 0.6s;
     margin-top: 10px;
 }
 .v12:hover {
-    box-shadow: 10px 10px 20px rgb(75, 72, 63);
+    -webkit-box-shadow: 10px 10px 20px rgb(75, 72, 63);
+            box-shadow: 10px 10px 20px rgb(75, 72, 63);
 }
 .v12 img {
     width: 300px;
