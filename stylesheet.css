@@ -1,8 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .header {
     background-color: rgb(240, 146, 146);
     overflow: hidden;
     opacity: 90%;
     border-radius: 20px;
+    height: 50px;
 }
 a {
     text-decoration: none;
@@ -23,6 +28,7 @@ ul {
     text-align: center;
 }
 li {
+    padding-top: 15px;
     list-style: none;
     display: inline-block;
     font-family: 'Courier New', monospace;
@@ -84,7 +90,7 @@ html {
     height: 1500px;
     width: 1000px;
     float: right;
-    position: relative; bottom: 435px;
+    position: relative; bottom: 410px;
     margin-right: 20px;
     border-radius: 5px;
     overflow: hidden;
@@ -136,6 +142,7 @@ input {
 .social h1 {
     font-family: "Courier New", monospace;
     font-style: italic;
+    margin-top: 20px;
 }
 .akun {
     opacity: 90%;
@@ -151,10 +158,10 @@ input {
     background-color: #3B5998;
     width: 100%;
     color: white;
-    padding-top: 1px;
+    padding-top: 20px;
     border-radius: 20px;
     margin: 10px 0;
-    height: 55px;
+    height: 40px;
 }
 .fesbuk:hover {
     background-color: #ffffff;
@@ -163,7 +170,7 @@ input {
     cursor: pointer;
 }
 .fesbuk i {
-    position: relative; right: 100px; bottom: 45px;
+    position: relative; right: 100px; bottom: 25px;
 }
 .fesbuk p {
     font-size: large;
@@ -173,9 +180,9 @@ input {
 .twit {
     background-color: #55ACEE;
     border-radius: 20px;
-    padding-top: 1px;
+    padding-top: 20px;
     width: 100%;
-    height: 55px;
+    height: 40px;
     color: white;
 }
 .twit:hover {
@@ -189,7 +196,7 @@ input {
     padding-left: 20px;
 }
 .twit i {
-    position: relative; right: 100px; bottom: 45px;
+    position: relative; right: 100px; bottom: 25px;
 }
 .slideshow {
     display: flex;
